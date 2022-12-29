@@ -1,0 +1,19 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "lib": [
+            "dom",
+            "es2020"
+        ],
+        "jsx": "react"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
